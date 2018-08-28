@@ -1,0 +1,60 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+hr {
+  max-width: 90px;
+  border-width: 2px;
+  border-color: #d2ea33; 
+}
+
+.faded {
+  color: #000; 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 70px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-family: 'Quicksand', sans-serif;
+  color: #FFF;
+}
+
+.btn-xl {
+  padding: 1rem 6rem; 
+}
+
+.btn-primary {
+  background-color: #a2d0d8;
+  border-color: #a2d0d8; }
+
+.btn-primary:hover {
+  background-color: rgba(247, 253, 255, 0.0);
+  border-color: #a2d0d8;
+  border-width: 0.1em;
+  cursor: progress;
+  color: #888;
+}
+  
